@@ -1,12 +1,7 @@
 #Requires AutoHotkey v2.0
 r::
 {
-Run "Firefox"
-WinActivate "Firefox"
+Run "msedge.exe https://shattereddisk.github.io/rickroll/rickroll.mp4 --new-window"
 SoundSetMute 0
 SoundSetVolume 70
-Sleep 50
-SendInput "^lhttps://www.youtube.com/watch?v=dQw4w9WgXcQ{Enter}"
-Sleep 2500
-SendInput "{Space}f"
 }
